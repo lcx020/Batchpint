@@ -10,7 +10,7 @@ net.enableCli()
 net.addP4Switch('s0', cli_input='s0-commands.txt')
 net.addP4Switch('s1', cli_input='s1-commands.txt')
 net.addP4Switch('s2', cli_input='s2-commands.txt')
-net.addP4Switch('s3', cli_input='s3-commands.txt')
+
 net.setP4SourceAll('p4src/batch.p4')
 
 net.addHost('h0')
